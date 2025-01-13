@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+  font-family: "Fira Code", monospace;
+  background-color: #1e1e1e;
+  color: #dcdcdc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #252526;
+  padding: 10px 20px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #4ec9b0;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #d7ba7d;
+  text-decoration: underline;
+}
+
+.container {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #dcdcaa;
+}
+
+footer {
+  background-color: #252526;
+  color: #d4d4d4;
+  text-align: center;
+  padding: 10px 0;
+}
+
+button {
+  background-color: #007acc;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f8d;
+}
+
